@@ -50,11 +50,9 @@ class Song
         }
    end
    def self.new_from_filename(filename)
-        str=  filename.split('-')
-      puts  str.map do |i|
-            i
-        end
-    #  puts     artistname=filename[0]
+       filename.split('-')
+      
+     puts   filename[0]
     #puts    songname = filename[1].split(".")
 
 
