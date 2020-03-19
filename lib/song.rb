@@ -45,7 +45,9 @@ class Song
    end
 
    def self.alphabetical
-         puts @@all.name
+     song = self.new
+     song.save
+     song.sort_by { |word| word}
    end
 
 end
