@@ -45,7 +45,7 @@ class Song
    end
 
    def self.alphabetical
-         puts @@all
+         puts @@all.name
    end
 
 end
