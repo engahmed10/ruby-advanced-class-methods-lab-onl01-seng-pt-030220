@@ -9,7 +9,7 @@ class Song
 
   def save
     self.class.all << self
-    
+
 
   end
 
@@ -47,8 +47,7 @@ class Song
    end
 
    def self.alphabetical
-
-
+       @all
    end
 
 end
