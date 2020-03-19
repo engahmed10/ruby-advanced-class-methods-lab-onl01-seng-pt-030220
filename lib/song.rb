@@ -55,7 +55,7 @@ class Song
        name= str[1].chomp(".mp3")
        song.self.new
        song.name
-       song.artist_name 
+       song.artist_name
 
    end
 
