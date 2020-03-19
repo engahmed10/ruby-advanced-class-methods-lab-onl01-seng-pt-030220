@@ -49,7 +49,7 @@ class Song
           word.name
         }
    end
-   def self.new_from_filename
+   def self.new_from_filename(name)
 
    end
 
