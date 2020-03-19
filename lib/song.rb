@@ -50,9 +50,9 @@ class Song
         }
    end
    def self.new_from_filename(filename)
-       filename.split('-')
+      puts filename.split('-').spli('.')
 
-     puts   filename[0]
+     #puts   filename[0]
     #puts    songname = filename[1].split(".")
 
 
