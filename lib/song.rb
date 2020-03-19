@@ -52,7 +52,7 @@ class Song
    def self.new_from_filename(filename)
       str=  filename.split('-')
       puts str
-       str.remove(".mp3")
+      puts str.remove(".mp3")
 
      #puts   filename[0]
     #puts    songname = filename[1].split(".")
